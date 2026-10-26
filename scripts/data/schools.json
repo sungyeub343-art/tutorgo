@@ -1,0 +1,4093 @@
+{
+ "source": "전국초중등학교위치표준데이터 (기준일 2026-10-01)",
+ "regions": {
+  "changwon": {
+   "elementary": [
+    {
+     "name": "가포초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "교방초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "구산초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "구산초등학교구서분교장",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산고운초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산신월초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "무학초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "반동초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "산호초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "상남초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "성호초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "완월초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "용마초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "우산초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "월성초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "월영초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "월포초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "진동초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "진전초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "하북초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "합포초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "해운초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "현동초등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "가고파초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "감천초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "광려초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "교동초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "구암초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "내서초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산중앙초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "봉덕초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "북성초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "삼계초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "상일초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "석전초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "안계초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "양덕초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "전안초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "중리초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "팔룡초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "합성초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "호계초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "회원초등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "남양초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "남정초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "내동초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "대방초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "대암초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "대원초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "동산초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "반송초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "사파초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "삼정자초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "성주초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "안남초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "안민초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "양곡초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "외동초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "용남초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "용지초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "용호초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "웅남초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "유목초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원남산초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원상남초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원신월초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "토월초등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "감계초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "대산초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "도계초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "명곡초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "명도초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "명서초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "무동초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "봉강초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "봉림초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "북면초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "사화초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "상북초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "소답초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "신등초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "신방초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "온천초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "우암초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "의창초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "일동초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "자여초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "중동초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원한들초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "평산초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "하천초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "화양초등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "경화초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "대야초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "덕산초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "도천초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "동부초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "석동초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "안골포초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "안청초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "용원초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "웅동초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "웅천초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "자은초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "장복초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "장천초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "제황초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해남산초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해냉천초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해신항초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해중앙초등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "풍호초등학교",
+     "district": "진해구"
+    }
+   ],
+   "middle": [
+    {
+     "name": "구산중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "구산중학교구남분교장",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산삼진중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산서중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산제일여자중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "성지여자중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "의신중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "진전중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "합포중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "해운중학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "광려중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "구암중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "내서중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산동중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산무학여자중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산여자중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산중앙중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "삼계중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "양덕여자중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "양덕중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "창신중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "합포여자중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "호계중학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "경원중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "남산중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "대방중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "반림중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "반송여자중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "반송중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "사파중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "삼정자중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "신월중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "안남중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "안민중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "양곡중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "웅남중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원남중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원상남중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원중앙중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "토월중학교",
+     "district": "성산구"
+    },
+    {
+     "name": "감계중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "도계중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "명곡여자중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "명서중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "봉곡중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "북면중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창덕중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창북중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원대산중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원동중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원여자중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "팔룡중학교",
+     "district": "의창구"
+    },
+    {
+     "name": "동진여자중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "동진중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "석동중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "안골포중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "용원중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "웅동중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "웅천중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해남중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해냉천중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해신항중학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해중학교",
+     "district": "진해구"
+    }
+   ],
+   "high": [
+    {
+     "name": "마산가포고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산삼진고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산여자고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산용마고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산제일여자고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산중앙고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "성지여자고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "태봉고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "합포고등학교",
+     "district": "마산합포구"
+    },
+    {
+     "name": "마산공업고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산구암고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산내서여자고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산무학여자고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "마산제일고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "창신고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "한일여자고등학교",
+     "district": "마산회원구"
+    },
+    {
+     "name": "창원경일고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원경일여자고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원기계공업고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원남고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원남산고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원대암고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원문성고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원사파고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원신월고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원여자고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원용호고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원중앙고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원중앙여자고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "창원토월고등학교",
+     "district": "성산구"
+    },
+    {
+     "name": "경남관광고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "경상고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원공업고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원과학고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원대산고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원명곡고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원명지여자고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원봉림고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원북면고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "창원성민여자고등학교",
+     "district": "의창구"
+    },
+    {
+     "name": "웅천고등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해고등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해세화여자고등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해여자고등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해용원고등학교",
+     "district": "진해구"
+    },
+    {
+     "name": "진해중앙고등학교",
+     "district": "진해구"
+    }
+   ]
+  },
+  "jinju": {
+   "elementary": [
+    {
+     "name": "가람초등학교",
+     "district": ""
+    },
+    {
+     "name": "가좌초등학교",
+     "district": ""
+    },
+    {
+     "name": "갈전초등학교",
+     "district": ""
+    },
+    {
+     "name": "관봉초등학교",
+     "district": ""
+    },
+    {
+     "name": "금곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "금빛초등학교",
+     "district": ""
+    },
+    {
+     "name": "금산초등학교",
+     "district": ""
+    },
+    {
+     "name": "금성초등학교",
+     "district": ""
+    },
+    {
+     "name": "금호초등학교",
+     "district": ""
+    },
+    {
+     "name": "남강초등학교",
+     "district": ""
+    },
+    {
+     "name": "내동초등학교",
+     "district": ""
+    },
+    {
+     "name": "대곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "도동초등학교",
+     "district": ""
+    },
+    {
+     "name": "동진초등학교",
+     "district": ""
+    },
+    {
+     "name": "망경초등학교",
+     "district": ""
+    },
+    {
+     "name": "명석초등학교",
+     "district": ""
+    },
+    {
+     "name": "무지개초등학교",
+     "district": ""
+    },
+    {
+     "name": "문산초등학교",
+     "district": ""
+    },
+    {
+     "name": "미천초등학교",
+     "district": ""
+    },
+    {
+     "name": "반성초등학교",
+     "district": ""
+    },
+    {
+     "name": "배영초등학교",
+     "district": ""
+    },
+    {
+     "name": "봉곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "봉래초등학교",
+     "district": ""
+    },
+    {
+     "name": "봉원초등학교",
+     "district": ""
+    },
+    {
+     "name": "사봉초등학교",
+     "district": ""
+    },
+    {
+     "name": "서진초등학교",
+     "district": ""
+    },
+    {
+     "name": "선학초등학교",
+     "district": ""
+    },
+    {
+     "name": "수곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "수정초등학교",
+     "district": ""
+    },
+    {
+     "name": "신안초등학교",
+     "district": ""
+    },
+    {
+     "name": "신진초등학교",
+     "district": ""
+    },
+    {
+     "name": "예하초등학교",
+     "district": ""
+    },
+    {
+     "name": "은하수초등학교",
+     "district": ""
+    },
+    {
+     "name": "이반성초등학교",
+     "district": ""
+    },
+    {
+     "name": "장재초등학교",
+     "district": ""
+    },
+    {
+     "name": "정촌초등학교",
+     "district": ""
+    },
+    {
+     "name": "주약초등학교",
+     "district": ""
+    },
+    {
+     "name": "지수초등학교",
+     "district": ""
+    },
+    {
+     "name": "진성초등학교",
+     "district": ""
+    },
+    {
+     "name": "진주교육대학교부설초등학교",
+     "district": ""
+    },
+    {
+     "name": "진주초등학교",
+     "district": ""
+    },
+    {
+     "name": "집현초등학교",
+     "district": ""
+    },
+    {
+     "name": "천전초등학교",
+     "district": ""
+    },
+    {
+     "name": "초전초등학교",
+     "district": ""
+    },
+    {
+     "name": "촉석초등학교",
+     "district": ""
+    },
+    {
+     "name": "충무공초등학교",
+     "district": ""
+    },
+    {
+     "name": "평거초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "개양중학교",
+     "district": ""
+    },
+    {
+     "name": "경상국립대학교사범대학부설중학교",
+     "district": ""
+    },
+    {
+     "name": "경해여자중학교",
+     "district": ""
+    },
+    {
+     "name": "금곡중학교",
+     "district": ""
+    },
+    {
+     "name": "대곡중학교",
+     "district": ""
+    },
+    {
+     "name": "대아중학교",
+     "district": ""
+    },
+    {
+     "name": "명석중학교",
+     "district": ""
+    },
+    {
+     "name": "문산중학교",
+     "district": ""
+    },
+    {
+     "name": "반성중학교",
+     "district": ""
+    },
+    {
+     "name": "삼현여자중학교",
+     "district": ""
+    },
+    {
+     "name": "선인국제중학교",
+     "district": ""
+    },
+    {
+     "name": "지수중학교",
+     "district": ""
+    },
+    {
+     "name": "진명여자중학교",
+     "district": ""
+    },
+    {
+     "name": "진서중학교",
+     "district": ""
+    },
+    {
+     "name": "진주남중학교",
+     "district": ""
+    },
+    {
+     "name": "진주동명중학교",
+     "district": ""
+    },
+    {
+     "name": "진주동중학교",
+     "district": ""
+    },
+    {
+     "name": "진주봉원중학교",
+     "district": ""
+    },
+    {
+     "name": "진주여자중학교",
+     "district": ""
+    },
+    {
+     "name": "진주제일중학교",
+     "district": ""
+    },
+    {
+     "name": "진주중앙중학교",
+     "district": ""
+    },
+    {
+     "name": "진주중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남과학고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남예술고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남자동차고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남정보고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남체육고등학교",
+     "district": ""
+    },
+    {
+     "name": "경상국립대학교사범대학부설고등학교",
+     "district": ""
+    },
+    {
+     "name": "경진고등학교",
+     "district": ""
+    },
+    {
+     "name": "경해여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "대아고등학교",
+     "district": ""
+    },
+    {
+     "name": "명신고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼현여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "선명여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "진서고등학교",
+     "district": ""
+    },
+    {
+     "name": "진양고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주기계공업고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주동명고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주외국어고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주제일여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "진주중앙고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "tongyeong": {
+   "elementary": [
+    {
+     "name": "광도초등학교",
+     "district": ""
+    },
+    {
+     "name": "남포초등학교",
+     "district": ""
+    },
+    {
+     "name": "도산초등학교",
+     "district": ""
+    },
+    {
+     "name": "두룡초등학교",
+     "district": ""
+    },
+    {
+     "name": "벽방초등학교",
+     "district": ""
+    },
+    {
+     "name": "사량초등학교",
+     "district": ""
+    },
+    {
+     "name": "산양초등학교",
+     "district": ""
+    },
+    {
+     "name": "산양초등학교풍화분교장",
+     "district": ""
+    },
+    {
+     "name": "욕지초등학교",
+     "district": ""
+    },
+    {
+     "name": "욕지초등학교연화분교장",
+     "district": ""
+    },
+    {
+     "name": "용남초등학교",
+     "district": ""
+    },
+    {
+     "name": "원평초등학교",
+     "district": ""
+    },
+    {
+     "name": "유영초등학교",
+     "district": ""
+    },
+    {
+     "name": "인평초등학교",
+     "district": ""
+    },
+    {
+     "name": "제석초등학교",
+     "district": ""
+    },
+    {
+     "name": "죽림초등학교",
+     "district": ""
+    },
+    {
+     "name": "진남초등학교",
+     "district": ""
+    },
+    {
+     "name": "충렬초등학교",
+     "district": ""
+    },
+    {
+     "name": "충무초등학교",
+     "district": ""
+    },
+    {
+     "name": "통영초등학교",
+     "district": ""
+    },
+    {
+     "name": "한려초등학교",
+     "district": ""
+    },
+    {
+     "name": "한산초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "도산중학교",
+     "district": ""
+    },
+    {
+     "name": "동원중학교",
+     "district": ""
+    },
+    {
+     "name": "사량중학교",
+     "district": ""
+    },
+    {
+     "name": "산양중학교",
+     "district": ""
+    },
+    {
+     "name": "욕지중학교",
+     "district": ""
+    },
+    {
+     "name": "충렬여자중학교",
+     "district": ""
+    },
+    {
+     "name": "충무여자중학교",
+     "district": ""
+    },
+    {
+     "name": "충무중학교",
+     "district": ""
+    },
+    {
+     "name": "통영여자중학교",
+     "district": ""
+    },
+    {
+     "name": "통영중앙중학교",
+     "district": ""
+    },
+    {
+     "name": "통영중학교",
+     "district": ""
+    },
+    {
+     "name": "한산중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "동원고등학교",
+     "district": ""
+    },
+    {
+     "name": "충렬여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "충무고등학교",
+     "district": ""
+    },
+    {
+     "name": "통영고등학교",
+     "district": ""
+    },
+    {
+     "name": "통영여자고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "sacheon": {
+   "elementary": [
+    {
+     "name": "곤명초등학교",
+     "district": ""
+    },
+    {
+     "name": "곤양초등학교",
+     "district": ""
+    },
+    {
+     "name": "남양초등학교",
+     "district": ""
+    },
+    {
+     "name": "노산초등학교",
+     "district": ""
+    },
+    {
+     "name": "대방초등학교",
+     "district": ""
+    },
+    {
+     "name": "대성초등학교",
+     "district": ""
+    },
+    {
+     "name": "동성초등학교",
+     "district": ""
+    },
+    {
+     "name": "문선초등학교",
+     "district": ""
+    },
+    {
+     "name": "사남초등학교",
+     "district": ""
+    },
+    {
+     "name": "사천초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼성초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포초등학교",
+     "district": ""
+    },
+    {
+     "name": "서포초등학교",
+     "district": ""
+    },
+    {
+     "name": "수양초등학교",
+     "district": ""
+    },
+    {
+     "name": "용산초등학교",
+     "district": ""
+    },
+    {
+     "name": "용현초등학교",
+     "district": ""
+    },
+    {
+     "name": "정동초등학교",
+     "district": ""
+    },
+    {
+     "name": "축동초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "곤명중학교",
+     "district": ""
+    },
+    {
+     "name": "곤양중학교",
+     "district": ""
+    },
+    {
+     "name": "남양중학교",
+     "district": ""
+    },
+    {
+     "name": "사천여자중학교",
+     "district": ""
+    },
+    {
+     "name": "사천중학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포여자중학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포제일중학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포중앙여자중학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포중학교",
+     "district": ""
+    },
+    {
+     "name": "서포중학교",
+     "district": ""
+    },
+    {
+     "name": "용남중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남자영고등학교",
+     "district": ""
+    },
+    {
+     "name": "곤양고등학교",
+     "district": ""
+    },
+    {
+     "name": "사천고등학교",
+     "district": ""
+    },
+    {
+     "name": "사천여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포공업고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼천포중앙고등학교",
+     "district": ""
+    },
+    {
+     "name": "용남고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "gimhae": {
+   "elementary": [
+    {
+     "name": "경운초등학교",
+     "district": ""
+    },
+    {
+     "name": "계동초등학교",
+     "district": ""
+    },
+    {
+     "name": "관동초등학교",
+     "district": ""
+    },
+    {
+     "name": "구봉초등학교",
+     "district": ""
+    },
+    {
+     "name": "구산초등학교",
+     "district": ""
+    },
+    {
+     "name": "금동초등학교",
+     "district": ""
+    },
+    {
+     "name": "금산초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해가야초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해구지초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해내동초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해대곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해동광초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해모산초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해봉황초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해부곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해삼성초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해신명초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해신안초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해외동초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해율산초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해합성초등학교",
+     "district": ""
+    },
+    {
+     "name": "김해활천초등학교",
+     "district": ""
+    },
+    {
+     "name": "내덕초등학교",
+     "district": ""
+    },
+    {
+     "name": "능동초등학교",
+     "district": ""
+    },
+    {
+     "name": "대감초등학교",
+     "district": ""
+    },
+    {
+     "name": "대동초등학교",
+     "district": ""
+    },
+    {
+     "name": "대진초등학교",
+     "district": ""
+    },
+    {
+     "name": "대청초등학교",
+     "district": ""
+    },
+    {
+     "name": "덕정초등학교",
+     "district": ""
+    },
+    {
+     "name": "봉명초등학교",
+     "district": ""
+    },
+    {
+     "name": "분성초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼계초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼문초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼방초등학교",
+     "district": ""
+    },
+    {
+     "name": "생림초등학교",
+     "district": ""
+    },
+    {
+     "name": "석봉초등학교",
+     "district": ""
+    },
+    {
+     "name": "수남초등학교",
+     "district": ""
+    },
+    {
+     "name": "신문초등학교",
+     "district": ""
+    },
+    {
+     "name": "신어초등학교",
+     "district": ""
+    },
+    {
+     "name": "안명초등학교",
+     "district": ""
+    },
+    {
+     "name": "어방초등학교",
+     "district": ""
+    },
+    {
+     "name": "영운초등학교",
+     "district": ""
+    },
+    {
+     "name": "용산초등학교",
+     "district": ""
+    },
+    {
+     "name": "우암초등학교",
+     "district": ""
+    },
+    {
+     "name": "월산초등학교",
+     "district": ""
+    },
+    {
+     "name": "율하초등학교",
+     "district": ""
+    },
+    {
+     "name": "이북초등학교",
+     "district": ""
+    },
+    {
+     "name": "이작초등학교",
+     "district": ""
+    },
+    {
+     "name": "임호초등학교",
+     "district": ""
+    },
+    {
+     "name": "장유초등학교",
+     "district": ""
+    },
+    {
+     "name": "주석초등학교",
+     "district": ""
+    },
+    {
+     "name": "주촌초등학교",
+     "district": ""
+    },
+    {
+     "name": "진례초등학교",
+     "district": ""
+    },
+    {
+     "name": "진영금병초등학교",
+     "district": ""
+    },
+    {
+     "name": "진영대창초등학교",
+     "district": ""
+    },
+    {
+     "name": "진영대흥초등학교",
+     "district": ""
+    },
+    {
+     "name": "진영장등초등학교",
+     "district": ""
+    },
+    {
+     "name": "진영중앙초등학교",
+     "district": ""
+    },
+    {
+     "name": "칠산초등학교",
+     "district": ""
+    },
+    {
+     "name": "한림초등학교",
+     "district": ""
+    },
+    {
+     "name": "화정초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "가야중학교",
+     "district": ""
+    },
+    {
+     "name": "경운중학교",
+     "district": ""
+    },
+    {
+     "name": "관동중학교",
+     "district": ""
+    },
+    {
+     "name": "김해구산중학교",
+     "district": ""
+    },
+    {
+     "name": "김해대곡중학교",
+     "district": ""
+    },
+    {
+     "name": "김해대동중학교",
+     "district": ""
+    },
+    {
+     "name": "김해모산중학교",
+     "district": ""
+    },
+    {
+     "name": "김해삼계중학교",
+     "district": ""
+    },
+    {
+     "name": "김해서중학교",
+     "district": ""
+    },
+    {
+     "name": "김해여자중학교",
+     "district": ""
+    },
+    {
+     "name": "김해중앙여자중학교",
+     "district": ""
+    },
+    {
+     "name": "김해중학교",
+     "district": ""
+    },
+    {
+     "name": "내덕중학교",
+     "district": ""
+    },
+    {
+     "name": "내동중학교",
+     "district": ""
+    },
+    {
+     "name": "능동중학교",
+     "district": ""
+    },
+    {
+     "name": "대청중학교",
+     "district": ""
+    },
+    {
+     "name": "봉명중학교",
+     "district": ""
+    },
+    {
+     "name": "분성중학교",
+     "district": ""
+    },
+    {
+     "name": "삼정중학교",
+     "district": ""
+    },
+    {
+     "name": "생림중학교",
+     "district": ""
+    },
+    {
+     "name": "수남중학교",
+     "district": ""
+    },
+    {
+     "name": "신어중학교",
+     "district": ""
+    },
+    {
+     "name": "영운중학교",
+     "district": ""
+    },
+    {
+     "name": "월산중학교",
+     "district": ""
+    },
+    {
+     "name": "율하중학교",
+     "district": ""
+    },
+    {
+     "name": "임호중학교",
+     "district": ""
+    },
+    {
+     "name": "장유중학교",
+     "district": ""
+    },
+    {
+     "name": "진례중학교",
+     "district": ""
+    },
+    {
+     "name": "진영장등중학교",
+     "district": ""
+    },
+    {
+     "name": "진영중학교",
+     "district": ""
+    },
+    {
+     "name": "한림중학교",
+     "district": ""
+    },
+    {
+     "name": "한얼중학교",
+     "district": ""
+    },
+    {
+     "name": "활천중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "구산고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해가야고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해건설공업고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해경원고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해대청고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해분성고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해분성여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해삼문고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해삼방고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해생명과학고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해수남고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해영운고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해외국어고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해율하고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해임호고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해제일고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해중앙여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "김해한일여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "장유고등학교",
+     "district": ""
+    },
+    {
+     "name": "진영고등학교",
+     "district": ""
+    },
+    {
+     "name": "진영제일고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "miryang": {
+   "elementary": [
+    {
+     "name": "무안초등학교",
+     "district": ""
+    },
+    {
+     "name": "미리벌초등학교",
+     "district": ""
+    },
+    {
+     "name": "밀성초등학교",
+     "district": ""
+    },
+    {
+     "name": "밀양초등학교",
+     "district": ""
+    },
+    {
+     "name": "밀주초등학교",
+     "district": ""
+    },
+    {
+     "name": "부북초등학교",
+     "district": ""
+    },
+    {
+     "name": "사포초등학교",
+     "district": ""
+    },
+    {
+     "name": "산내남명초등학교",
+     "district": ""
+    },
+    {
+     "name": "산내초등학교",
+     "district": ""
+    },
+    {
+     "name": "산동초등학교",
+     "district": ""
+    },
+    {
+     "name": "산외초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼랑진초등학교",
+     "district": ""
+    },
+    {
+     "name": "상남초등학교",
+     "district": ""
+    },
+    {
+     "name": "상동초등학교",
+     "district": ""
+    },
+    {
+     "name": "송진초등학교",
+     "district": ""
+    },
+    {
+     "name": "수산초등학교",
+     "district": ""
+    },
+    {
+     "name": "숭진초등학교",
+     "district": ""
+    },
+    {
+     "name": "예림초등학교",
+     "district": ""
+    },
+    {
+     "name": "청도초등학교",
+     "district": ""
+    },
+    {
+     "name": "초동초등학교",
+     "district": ""
+    },
+    {
+     "name": "태룡초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "동국대학교사범대학부속홍제중학교",
+     "district": ""
+    },
+    {
+     "name": "동명중학교",
+     "district": ""
+    },
+    {
+     "name": "무안중학교",
+     "district": ""
+    },
+    {
+     "name": "미리벌중학교",
+     "district": ""
+    },
+    {
+     "name": "밀성여자중학교",
+     "district": ""
+    },
+    {
+     "name": "밀성중학교",
+     "district": ""
+    },
+    {
+     "name": "밀양동강중학교",
+     "district": ""
+    },
+    {
+     "name": "밀양여자중학교",
+     "district": ""
+    },
+    {
+     "name": "밀양중학교",
+     "district": ""
+    },
+    {
+     "name": "삼랑진중학교",
+     "district": ""
+    },
+    {
+     "name": "세종중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "밀성고등학교",
+     "district": ""
+    },
+    {
+     "name": "밀성제일고등학교",
+     "district": ""
+    },
+    {
+     "name": "밀양고등학교",
+     "district": ""
+    },
+    {
+     "name": "밀양동명고등학교",
+     "district": ""
+    },
+    {
+     "name": "밀양여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "삼랑진고등학교",
+     "district": ""
+    },
+    {
+     "name": "세종고등학교",
+     "district": ""
+    },
+    {
+     "name": "한국나노마이스터고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "geoje": {
+   "elementary": [
+    {
+     "name": "거제고현초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제상동초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제양정초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제용산초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제용소초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제중앙초등학교",
+     "district": ""
+    },
+    {
+     "name": "거제초등학교",
+     "district": ""
+    },
+    {
+     "name": "계룡초등학교",
+     "district": ""
+    },
+    {
+     "name": "국산초등학교",
+     "district": ""
+    },
+    {
+     "name": "기성초등학교",
+     "district": ""
+    },
+    {
+     "name": "내곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "능포초등학교",
+     "district": ""
+    },
+    {
+     "name": "대우초등학교",
+     "district": ""
+    },
+    {
+     "name": "동부초등학교",
+     "district": ""
+    },
+    {
+     "name": "동부초등학교율포분교장",
+     "district": ""
+    },
+    {
+     "name": "마전초등학교",
+     "district": ""
+    },
+    {
+     "name": "명사초등학교",
+     "district": ""
+    },
+    {
+     "name": "사등초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼룡초등학교",
+     "district": ""
+    },
+    {
+     "name": "송정초등학교",
+     "district": ""
+    },
+    {
+     "name": "수월초등학교",
+     "district": ""
+    },
+    {
+     "name": "숭덕초등학교",
+     "district": ""
+    },
+    {
+     "name": "신현초등학교",
+     "district": ""
+    },
+    {
+     "name": "아주초등학교",
+     "district": ""
+    },
+    {
+     "name": "양지초등학교",
+     "district": ""
+    },
+    {
+     "name": "연초초등학교",
+     "district": ""
+    },
+    {
+     "name": "오량초등학교",
+     "district": ""
+    },
+    {
+     "name": "오비초등학교",
+     "district": ""
+    },
+    {
+     "name": "옥포초등학교",
+     "district": ""
+    },
+    {
+     "name": "외간초등학교",
+     "district": ""
+    },
+    {
+     "name": "외포초등학교",
+     "district": ""
+    },
+    {
+     "name": "일운초등학교",
+     "district": ""
+    },
+    {
+     "name": "장목초등학교",
+     "district": ""
+    },
+    {
+     "name": "장승포초등학교",
+     "district": ""
+    },
+    {
+     "name": "장평초등학교",
+     "district": ""
+    },
+    {
+     "name": "제산초등학교",
+     "district": ""
+    },
+    {
+     "name": "중곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "진목초등학교",
+     "district": ""
+    },
+    {
+     "name": "창호초등학교",
+     "district": ""
+    },
+    {
+     "name": "칠천초등학교",
+     "district": ""
+    },
+    {
+     "name": "하청초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "거제고현중학교",
+     "district": ""
+    },
+    {
+     "name": "거제상문중학교",
+     "district": ""
+    },
+    {
+     "name": "거제장평중학교",
+     "district": ""
+    },
+    {
+     "name": "거제제일중학교",
+     "district": ""
+    },
+    {
+     "name": "거제중앙중학교",
+     "district": ""
+    },
+    {
+     "name": "거제중학교",
+     "district": ""
+    },
+    {
+     "name": "계룡중학교",
+     "district": ""
+    },
+    {
+     "name": "동부중학교",
+     "district": ""
+    },
+    {
+     "name": "둔덕중학교",
+     "district": ""
+    },
+    {
+     "name": "성포중학교",
+     "district": ""
+    },
+    {
+     "name": "수월중학교",
+     "district": ""
+    },
+    {
+     "name": "신현중학교",
+     "district": ""
+    },
+    {
+     "name": "연초중학교",
+     "district": ""
+    },
+    {
+     "name": "옥포성지중학교",
+     "district": ""
+    },
+    {
+     "name": "옥포중학교",
+     "district": ""
+    },
+    {
+     "name": "외포중학교",
+     "district": ""
+    },
+    {
+     "name": "장목예술중학교",
+     "district": ""
+    },
+    {
+     "name": "지세포중학교",
+     "district": ""
+    },
+    {
+     "name": "하청중학교",
+     "district": ""
+    },
+    {
+     "name": "해성중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "거제고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제공업고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제상문고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제여자상업고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제옥포고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제제일고등학교",
+     "district": ""
+    },
+    {
+     "name": "거제중앙고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남산업고등학교",
+     "district": ""
+    },
+    {
+     "name": "연초고등학교",
+     "district": ""
+    },
+    {
+     "name": "해성고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "yangsan": {
+   "elementary": [
+    {
+     "name": "가남초등학교",
+     "district": ""
+    },
+    {
+     "name": "가양초등학교",
+     "district": ""
+    },
+    {
+     "name": "가촌초등학교",
+     "district": ""
+    },
+    {
+     "name": "금송초등학교",
+     "district": ""
+    },
+    {
+     "name": "금오초등학교",
+     "district": ""
+    },
+    {
+     "name": "대운초등학교",
+     "district": ""
+    },
+    {
+     "name": "덕계초등학교",
+     "district": ""
+    },
+    {
+     "name": "동면초등학교",
+     "district": ""
+    },
+    {
+     "name": "동산초등학교",
+     "district": ""
+    },
+    {
+     "name": "물금초등학교",
+     "district": ""
+    },
+    {
+     "name": "백동초등학교",
+     "district": ""
+    },
+    {
+     "name": "범어초등학교",
+     "district": ""
+    },
+    {
+     "name": "북정초등학교",
+     "district": ""
+    },
+    {
+     "name": "사송초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼성초등학교",
+     "district": ""
+    },
+    {
+     "name": "삽량초등학교",
+     "district": ""
+    },
+    {
+     "name": "상북초등학교",
+     "district": ""
+    },
+    {
+     "name": "서남초등학교",
+     "district": ""
+    },
+    {
+     "name": "서창초등학교",
+     "district": ""
+    },
+    {
+     "name": "석산초등학교",
+     "district": ""
+    },
+    {
+     "name": "성산초등학교",
+     "district": ""
+    },
+    {
+     "name": "소토초등학교",
+     "district": ""
+    },
+    {
+     "name": "신기초등학교",
+     "district": ""
+    },
+    {
+     "name": "신명초등학교",
+     "district": ""
+    },
+    {
+     "name": "신양초등학교",
+     "district": ""
+    },
+    {
+     "name": "신주초등학교",
+     "district": ""
+    },
+    {
+     "name": "양산초등학교",
+     "district": ""
+    },
+    {
+     "name": "양주초등학교",
+     "district": ""
+    },
+    {
+     "name": "어곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "영천초등학교",
+     "district": ""
+    },
+    {
+     "name": "오봉초등학교",
+     "district": ""
+    },
+    {
+     "name": "용연초등학교",
+     "district": ""
+    },
+    {
+     "name": "웅상초등학교",
+     "district": ""
+    },
+    {
+     "name": "원동초등학교",
+     "district": ""
+    },
+    {
+     "name": "원동초등학교이천분교장",
+     "district": ""
+    },
+    {
+     "name": "좌삼초등학교",
+     "district": ""
+    },
+    {
+     "name": "중부초등학교",
+     "district": ""
+    },
+    {
+     "name": "증산초등학교",
+     "district": ""
+    },
+    {
+     "name": "천성초등학교",
+     "district": ""
+    },
+    {
+     "name": "평산초등학교",
+     "district": ""
+    },
+    {
+     "name": "하북초등학교",
+     "district": ""
+    },
+    {
+     "name": "화제초등학교",
+     "district": ""
+    },
+    {
+     "name": "황산초등학교",
+     "district": ""
+    },
+    {
+     "name": "회야초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "개운중학교",
+     "district": ""
+    },
+    {
+     "name": "금송중학교",
+     "district": ""
+    },
+    {
+     "name": "금오중학교",
+     "district": ""
+    },
+    {
+     "name": "물금동아중학교",
+     "district": ""
+    },
+    {
+     "name": "물금중학교",
+     "district": ""
+    },
+    {
+     "name": "범어중학교",
+     "district": ""
+    },
+    {
+     "name": "보광중학교",
+     "district": ""
+    },
+    {
+     "name": "사송중학교",
+     "district": ""
+    },
+    {
+     "name": "삼성중학교",
+     "district": ""
+    },
+    {
+     "name": "서창중학교",
+     "district": ""
+    },
+    {
+     "name": "신주중학교",
+     "district": ""
+    },
+    {
+     "name": "양산여자중학교",
+     "district": ""
+    },
+    {
+     "name": "양산중앙중학교",
+     "district": ""
+    },
+    {
+     "name": "양산중학교",
+     "district": ""
+    },
+    {
+     "name": "양주중학교",
+     "district": ""
+    },
+    {
+     "name": "웅상여자중학교",
+     "district": ""
+    },
+    {
+     "name": "웅상중학교",
+     "district": ""
+    },
+    {
+     "name": "원동중학교",
+     "district": ""
+    },
+    {
+     "name": "증산중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남외국어고등학교",
+     "district": ""
+    },
+    {
+     "name": "물금고등학교",
+     "district": ""
+    },
+    {
+     "name": "범어고등학교",
+     "district": ""
+    },
+    {
+     "name": "보광고등학교",
+     "district": ""
+    },
+    {
+     "name": "사송고등학교",
+     "district": ""
+    },
+    {
+     "name": "서창고등학교",
+     "district": ""
+    },
+    {
+     "name": "양산고등학교",
+     "district": ""
+    },
+    {
+     "name": "양산남부고등학교",
+     "district": ""
+    },
+    {
+     "name": "양산여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "양산인공지능고등학교",
+     "district": ""
+    },
+    {
+     "name": "양산제일고등학교",
+     "district": ""
+    },
+    {
+     "name": "웅상고등학교",
+     "district": ""
+    },
+    {
+     "name": "증산고등학교",
+     "district": ""
+    },
+    {
+     "name": "효암고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "uiryeong": {
+   "elementary": [
+    {
+     "name": "가례초등학교",
+     "district": ""
+    },
+    {
+     "name": "낙서초등학교",
+     "district": ""
+    },
+    {
+     "name": "남산초등학교",
+     "district": ""
+    },
+    {
+     "name": "대의초등학교",
+     "district": ""
+    },
+    {
+     "name": "부림초등학교",
+     "district": ""
+    },
+    {
+     "name": "부림초등학교봉수분교장",
+     "district": ""
+    },
+    {
+     "name": "용덕초등학교",
+     "district": ""
+    },
+    {
+     "name": "유곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "의령초등학교",
+     "district": ""
+    },
+    {
+     "name": "정곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "지정초등학교",
+     "district": ""
+    },
+    {
+     "name": "칠곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "화정초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "신반중학교",
+     "district": ""
+    },
+    {
+     "name": "의령여자중학교",
+     "district": ""
+    },
+    {
+     "name": "의령중학교",
+     "district": ""
+    },
+    {
+     "name": "정곡중학교",
+     "district": ""
+    },
+    {
+     "name": "지정중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "신반정보고등학교",
+     "district": ""
+    },
+    {
+     "name": "의령고등학교",
+     "district": ""
+    },
+    {
+     "name": "의령여자고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "haman": {
+   "elementary": [
+    {
+     "name": "가야초등학교",
+     "district": ""
+    },
+    {
+     "name": "군북초등학교",
+     "district": ""
+    },
+    {
+     "name": "대산초등학교",
+     "district": ""
+    },
+    {
+     "name": "문암초등학교",
+     "district": ""
+    },
+    {
+     "name": "법수초등학교",
+     "district": ""
+    },
+    {
+     "name": "산인초등학교",
+     "district": ""
+    },
+    {
+     "name": "아라초등학교",
+     "district": ""
+    },
+    {
+     "name": "예곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "외암초등학교",
+     "district": ""
+    },
+    {
+     "name": "월촌초등학교",
+     "district": ""
+    },
+    {
+     "name": "유원초등학교",
+     "district": ""
+    },
+    {
+     "name": "중앙초등학교",
+     "district": ""
+    },
+    {
+     "name": "칠서초등학교",
+     "district": ""
+    },
+    {
+     "name": "칠서초등학교이룡분교장",
+     "district": ""
+    },
+    {
+     "name": "칠원초등학교",
+     "district": ""
+    },
+    {
+     "name": "함안초등학교",
+     "district": ""
+    },
+    {
+     "name": "호암초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "군북중학교",
+     "district": ""
+    },
+    {
+     "name": "대산중학교",
+     "district": ""
+    },
+    {
+     "name": "칠성중학교",
+     "district": ""
+    },
+    {
+     "name": "칠원중학교",
+     "district": ""
+    },
+    {
+     "name": "함성중학교",
+     "district": ""
+    },
+    {
+     "name": "함안여자중학교",
+     "district": ""
+    },
+    {
+     "name": "함안중학교",
+     "district": ""
+    },
+    {
+     "name": "호암중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남로봇고등학교",
+     "district": ""
+    },
+    {
+     "name": "군북고등학교",
+     "district": ""
+    },
+    {
+     "name": "명덕고등학교",
+     "district": ""
+    },
+    {
+     "name": "칠원고등학교",
+     "district": ""
+    },
+    {
+     "name": "함안고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "changnyeong": {
+   "elementary": [
+    {
+     "name": "계창초등학교",
+     "district": ""
+    },
+    {
+     "name": "고암초등학교",
+     "district": ""
+    },
+    {
+     "name": "길곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "남지초등학교",
+     "district": ""
+    },
+    {
+     "name": "대지초등학교",
+     "district": ""
+    },
+    {
+     "name": "대합초등학교",
+     "district": ""
+    },
+    {
+     "name": "도천초등학교",
+     "district": ""
+    },
+    {
+     "name": "동포초등학교",
+     "district": ""
+    },
+    {
+     "name": "명덕초등학교",
+     "district": ""
+    },
+    {
+     "name": "부곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "부곡초등학교학포분교장",
+     "district": ""
+    },
+    {
+     "name": "영산초등학교",
+     "district": ""
+    },
+    {
+     "name": "유어초등학교",
+     "district": ""
+    },
+    {
+     "name": "이방초등학교",
+     "district": ""
+    },
+    {
+     "name": "이방초등학교장천분교장",
+     "district": ""
+    },
+    {
+     "name": "장마초등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕성산초등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "남지여자중학교",
+     "district": ""
+    },
+    {
+     "name": "남지중학교",
+     "district": ""
+    },
+    {
+     "name": "대성중학교",
+     "district": ""
+    },
+    {
+     "name": "부곡중학교",
+     "district": ""
+    },
+    {
+     "name": "성산중학교",
+     "district": ""
+    },
+    {
+     "name": "신창여자중학교",
+     "district": ""
+    },
+    {
+     "name": "영산중학교",
+     "district": ""
+    },
+    {
+     "name": "창녕여자중학교",
+     "district": ""
+    },
+    {
+     "name": "창녕옥야중학교",
+     "district": ""
+    },
+    {
+     "name": "창녕중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "남지고등학교",
+     "district": ""
+    },
+    {
+     "name": "영산고등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕고등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕대성고등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕슈퍼텍고등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "창녕옥야고등학교",
+     "district": ""
+    },
+    {
+     "name": "한국과학기술고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "goseong": {
+   "elementary": [
+    {
+     "name": "개천초등학교",
+     "district": ""
+    },
+    {
+     "name": "거류초등학교",
+     "district": ""
+    },
+    {
+     "name": "고성초등학교",
+     "district": ""
+    },
+    {
+     "name": "구만초등학교",
+     "district": ""
+    },
+    {
+     "name": "대성초등학교",
+     "district": ""
+    },
+    {
+     "name": "대흥초등학교",
+     "district": ""
+    },
+    {
+     "name": "동해초등학교",
+     "district": ""
+    },
+    {
+     "name": "마암초등학교",
+     "district": ""
+    },
+    {
+     "name": "방산초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼산초등학교",
+     "district": ""
+    },
+    {
+     "name": "상리초등학교",
+     "district": ""
+    },
+    {
+     "name": "영오초등학교",
+     "district": ""
+    },
+    {
+     "name": "율천초등학교",
+     "district": ""
+    },
+    {
+     "name": "철성초등학교",
+     "district": ""
+    },
+    {
+     "name": "하이초등학교",
+     "district": ""
+    },
+    {
+     "name": "하일초등학교",
+     "district": ""
+    },
+    {
+     "name": "회화초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "고성동중학교",
+     "district": ""
+    },
+    {
+     "name": "고성여자중학교",
+     "district": ""
+    },
+    {
+     "name": "고성중학교",
+     "district": ""
+    },
+    {
+     "name": "동해중학교",
+     "district": ""
+    },
+    {
+     "name": "소가야중학교",
+     "district": ""
+    },
+    {
+     "name": "영천중학교",
+     "district": ""
+    },
+    {
+     "name": "철성중학교",
+     "district": ""
+    },
+    {
+     "name": "회화중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남항공고등학교",
+     "district": ""
+    },
+    {
+     "name": "고성고등학교",
+     "district": ""
+    },
+    {
+     "name": "고성중앙고등학교",
+     "district": ""
+    },
+    {
+     "name": "철성고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "namhae": {
+   "elementary": [
+    {
+     "name": "고현초등학교",
+     "district": ""
+    },
+    {
+     "name": "남명초등학교",
+     "district": ""
+    },
+    {
+     "name": "남해초등학교",
+     "district": ""
+    },
+    {
+     "name": "도마초등학교",
+     "district": ""
+    },
+    {
+     "name": "미조초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼동초등학교",
+     "district": ""
+    },
+    {
+     "name": "상주초등학교",
+     "district": ""
+    },
+    {
+     "name": "설천초등학교",
+     "district": ""
+    },
+    {
+     "name": "성명초등학교",
+     "district": ""
+    },
+    {
+     "name": "이동초등학교",
+     "district": ""
+    },
+    {
+     "name": "지족초등학교",
+     "district": ""
+    },
+    {
+     "name": "창선초등학교",
+     "district": ""
+    },
+    {
+     "name": "해양초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "꽃내중학교",
+     "district": ""
+    },
+    {
+     "name": "남해여자중학교",
+     "district": ""
+    },
+    {
+     "name": "남해중학교",
+     "district": ""
+    },
+    {
+     "name": "미조중학교",
+     "district": ""
+    },
+    {
+     "name": "상주중학교",
+     "district": ""
+    },
+    {
+     "name": "설천중학교",
+     "district": ""
+    },
+    {
+     "name": "이동중학교",
+     "district": ""
+    },
+    {
+     "name": "창선중학교",
+     "district": ""
+    },
+    {
+     "name": "해성중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "경남해양과학고등학교",
+     "district": ""
+    },
+    {
+     "name": "남해고등학교",
+     "district": ""
+    },
+    {
+     "name": "남해정보산업고등학교",
+     "district": ""
+    },
+    {
+     "name": "남해제일고등학교",
+     "district": ""
+    },
+    {
+     "name": "남해해성고등학교",
+     "district": ""
+    },
+    {
+     "name": "창선고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "hadong": {
+   "elementary": [
+    {
+     "name": "갈육초등학교",
+     "district": ""
+    },
+    {
+     "name": "고전초등학교",
+     "district": ""
+    },
+    {
+     "name": "궁항초등학교",
+     "district": ""
+    },
+    {
+     "name": "노량초등학교",
+     "district": ""
+    },
+    {
+     "name": "묵계초등학교",
+     "district": ""
+    },
+    {
+     "name": "묵계초등학교청암분교장",
+     "district": ""
+    },
+    {
+     "name": "북천초등학교",
+     "district": ""
+    },
+    {
+     "name": "쌍계초등학교",
+     "district": ""
+    },
+    {
+     "name": "악양초등학교",
+     "district": ""
+    },
+    {
+     "name": "옥종초등학교",
+     "district": ""
+    },
+    {
+     "name": "적량초등학교",
+     "district": ""
+    },
+    {
+     "name": "진교초등학교",
+     "district": ""
+    },
+    {
+     "name": "진정초등학교",
+     "district": ""
+    },
+    {
+     "name": "하동초등학교",
+     "district": ""
+    },
+    {
+     "name": "화개초등학교",
+     "district": ""
+    },
+    {
+     "name": "화개초등학교왕성분교장",
+     "district": ""
+    },
+    {
+     "name": "횡천초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "금남중학교",
+     "district": ""
+    },
+    {
+     "name": "악양중학교",
+     "district": ""
+    },
+    {
+     "name": "옥종중학교",
+     "district": ""
+    },
+    {
+     "name": "진교중학교",
+     "district": ""
+    },
+    {
+     "name": "청암중학교",
+     "district": ""
+    },
+    {
+     "name": "하동중앙중학교",
+     "district": ""
+    },
+    {
+     "name": "하동중학교",
+     "district": ""
+    },
+    {
+     "name": "한다사중학교",
+     "district": ""
+    },
+    {
+     "name": "화개중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "금남고등학교",
+     "district": ""
+    },
+    {
+     "name": "옥종고등학교",
+     "district": ""
+    },
+    {
+     "name": "진교고등학교",
+     "district": ""
+    },
+    {
+     "name": "하동고등학교",
+     "district": ""
+    },
+    {
+     "name": "하동여자고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "sancheong": {
+   "elementary": [
+    {
+     "name": "금서초등학교",
+     "district": ""
+    },
+    {
+     "name": "단계초등학교",
+     "district": ""
+    },
+    {
+     "name": "단성초등학교",
+     "district": ""
+    },
+    {
+     "name": "덕산초등학교",
+     "district": ""
+    },
+    {
+     "name": "도산초등학교",
+     "district": ""
+    },
+    {
+     "name": "산청초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼장초등학교",
+     "district": ""
+    },
+    {
+     "name": "생비량초등학교",
+     "district": ""
+    },
+    {
+     "name": "생초초등학교",
+     "district": ""
+    },
+    {
+     "name": "신안초등학교",
+     "district": ""
+    },
+    {
+     "name": "신천초등학교",
+     "district": ""
+    },
+    {
+     "name": "오부초등학교",
+     "district": ""
+    },
+    {
+     "name": "차황초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "단성중학교",
+     "district": ""
+    },
+    {
+     "name": "덕산중학교",
+     "district": ""
+    },
+    {
+     "name": "산청중학교",
+     "district": ""
+    },
+    {
+     "name": "신등중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "간디고등학교",
+     "district": ""
+    },
+    {
+     "name": "경남간호고등학교",
+     "district": ""
+    },
+    {
+     "name": "단성고등학교",
+     "district": ""
+    },
+    {
+     "name": "덕산고등학교",
+     "district": ""
+    },
+    {
+     "name": "산청고등학교",
+     "district": ""
+    },
+    {
+     "name": "신등고등학교",
+     "district": ""
+    },
+    {
+     "name": "지리산고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "hamyang": {
+   "elementary": [
+    {
+     "name": "금반초등학교",
+     "district": ""
+    },
+    {
+     "name": "마천초등학교",
+     "district": ""
+    },
+    {
+     "name": "백전초등학교",
+     "district": ""
+    },
+    {
+     "name": "병곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "서상초등학교",
+     "district": ""
+    },
+    {
+     "name": "서하초등학교",
+     "district": ""
+    },
+    {
+     "name": "수동초등학교",
+     "district": ""
+    },
+    {
+     "name": "안의초등학교",
+     "district": ""
+    },
+    {
+     "name": "위림초등학교",
+     "district": ""
+    },
+    {
+     "name": "위성초등학교",
+     "district": ""
+    },
+    {
+     "name": "유림초등학교",
+     "district": ""
+    },
+    {
+     "name": "지곡초등학교",
+     "district": ""
+    },
+    {
+     "name": "함양초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "마천중학교",
+     "district": ""
+    },
+    {
+     "name": "서상중학교",
+     "district": ""
+    },
+    {
+     "name": "수동중학교",
+     "district": ""
+    },
+    {
+     "name": "안의중학교",
+     "district": ""
+    },
+    {
+     "name": "함양여자중학교",
+     "district": ""
+    },
+    {
+     "name": "함양중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "서상고등학교",
+     "district": ""
+    },
+    {
+     "name": "안의고등학교",
+     "district": ""
+    },
+    {
+     "name": "함양고등학교",
+     "district": ""
+    },
+    {
+     "name": "함양제일고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "geochang": {
+   "elementary": [
+    {
+     "name": "가북초등학교",
+     "district": ""
+    },
+    {
+     "name": "가조초등학교",
+     "district": ""
+    },
+    {
+     "name": "거창초등학교",
+     "district": ""
+    },
+    {
+     "name": "고제초등학교",
+     "district": ""
+    },
+    {
+     "name": "남상초등학교",
+     "district": ""
+    },
+    {
+     "name": "남하초등학교",
+     "district": ""
+    },
+    {
+     "name": "마리초등학교",
+     "district": ""
+    },
+    {
+     "name": "북상초등학교",
+     "district": ""
+    },
+    {
+     "name": "샛별초등학교",
+     "district": ""
+    },
+    {
+     "name": "신원초등학교",
+     "district": ""
+    },
+    {
+     "name": "아림초등학교",
+     "district": ""
+    },
+    {
+     "name": "웅양초등학교",
+     "district": ""
+    },
+    {
+     "name": "월천초등학교",
+     "district": ""
+    },
+    {
+     "name": "위천초등학교",
+     "district": ""
+    },
+    {
+     "name": "주상초등학교",
+     "district": ""
+    },
+    {
+     "name": "창남초등학교",
+     "district": ""
+    },
+    {
+     "name": "창동초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "가조중학교",
+     "district": ""
+    },
+    {
+     "name": "거창대성중학교",
+     "district": ""
+    },
+    {
+     "name": "거창덕유중학교",
+     "district": ""
+    },
+    {
+     "name": "거창여자중학교",
+     "district": ""
+    },
+    {
+     "name": "거창중학교",
+     "district": ""
+    },
+    {
+     "name": "거창중학교고제분교장",
+     "district": ""
+    },
+    {
+     "name": "샛별중학교",
+     "district": ""
+    },
+    {
+     "name": "웅양중학교",
+     "district": ""
+    },
+    {
+     "name": "혜성여자중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "거창고등학교",
+     "district": ""
+    },
+    {
+     "name": "거창대성고등학교",
+     "district": ""
+    },
+    {
+     "name": "거창승강기고등학교",
+     "district": ""
+    },
+    {
+     "name": "거창여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "거창중앙고등학교",
+     "district": ""
+    },
+    {
+     "name": "대성일고등학교",
+     "district": ""
+    },
+    {
+     "name": "아림고등학교",
+     "district": ""
+    }
+   ]
+  },
+  "hapcheon": {
+   "elementary": [
+    {
+     "name": "가회초등학교",
+     "district": ""
+    },
+    {
+     "name": "남정초등학교",
+     "district": ""
+    },
+    {
+     "name": "대병초등학교",
+     "district": ""
+    },
+    {
+     "name": "대양초등학교",
+     "district": ""
+    },
+    {
+     "name": "묘산초등학교",
+     "district": ""
+    },
+    {
+     "name": "봉산초등학교",
+     "district": ""
+    },
+    {
+     "name": "삼가초등학교",
+     "district": ""
+    },
+    {
+     "name": "쌍백초등학교",
+     "district": ""
+    },
+    {
+     "name": "쌍책초등학교",
+     "district": ""
+    },
+    {
+     "name": "야로초등학교",
+     "district": ""
+    },
+    {
+     "name": "영전초등학교",
+     "district": ""
+    },
+    {
+     "name": "용주초등학교",
+     "district": ""
+    },
+    {
+     "name": "적중초등학교",
+     "district": ""
+    },
+    {
+     "name": "청덕초등학교",
+     "district": ""
+    },
+    {
+     "name": "초계초등학교",
+     "district": ""
+    },
+    {
+     "name": "초계초등학교덕곡분교장",
+     "district": ""
+    },
+    {
+     "name": "합천가야초등학교",
+     "district": ""
+    },
+    {
+     "name": "합천초등학교",
+     "district": ""
+    }
+   ],
+   "middle": [
+    {
+     "name": "가회중학교",
+     "district": ""
+    },
+    {
+     "name": "대병중학교",
+     "district": ""
+    },
+    {
+     "name": "묘산중학교",
+     "district": ""
+    },
+    {
+     "name": "삼가중학교",
+     "district": ""
+    },
+    {
+     "name": "야로중학교",
+     "district": ""
+    },
+    {
+     "name": "초계중학교",
+     "district": ""
+    },
+    {
+     "name": "합천여자중학교",
+     "district": ""
+    },
+    {
+     "name": "합천중학교",
+     "district": ""
+    },
+    {
+     "name": "해인중학교",
+     "district": ""
+    }
+   ],
+   "high": [
+    {
+     "name": "삼가고등학교",
+     "district": ""
+    },
+    {
+     "name": "야로고등학교",
+     "district": ""
+    },
+    {
+     "name": "초계고등학교",
+     "district": ""
+    },
+    {
+     "name": "합천고등학교",
+     "district": ""
+    },
+    {
+     "name": "합천여자고등학교",
+     "district": ""
+    },
+    {
+     "name": "합천평화고등학교",
+     "district": ""
+    }
+   ]
+  }
+ }
+}
