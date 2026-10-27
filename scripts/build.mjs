@@ -116,6 +116,15 @@ const commonFaq = [
 ];
 
 // 집중 프로그램 페이지(/regions/{지역}/{프로그램}/). 학년 전환기·수업 방식 키워드 대응
+// 창원 5개 구 페이지(/regions/changwon/{구}/). 학교·동네 목록은 schools.json에서 가져옵니다
+const districts = [
+  { slug: "seongsan", name: "성산구", alias: "" },
+  { slug: "uichang", name: "의창구", alias: "" },
+  { slug: "masanhappo", name: "마산합포구", alias: "마산" },
+  { slug: "masanhoewon", name: "마산회원구", alias: "마산" },
+  { slug: "jinhae", name: "진해구", alias: "진해" }
+];
+
 const programs = [
   {
     slug: "pre-middle", name: "예비중1", label: "초6 → 중1",
@@ -166,6 +175,40 @@ const programs = [
     faq: [
       ["{r} 온라인 수학과외도 효과가 있나요?", "1:1 실시간 수업이라 질문과 피드백이 바로 이루어집니다. 수업 전 진단과 매주 과제 관리로 대면 수업과 같은 기준으로 학습을 관리합니다."],
       ["온라인 수업에는 무엇이 필요한가요?", "인터넷이 연결된 컴퓨터나 태블릿, 문제 풀이를 촬영할 휴대폰이면 충분합니다. 첫 수업 전에 접속 방법을 안내해 드립니다."]
+    ]
+  },
+  {
+    slug: "exam", name: "시험대비", label: "중간·기말고사",
+    title: "중간·기말고사 수학 내신 집중 1:1",
+    summary: "학교별 시험 범위와 출제 경향에 맞춰 중간·기말고사 수학 점수를 끌어올리는 1:1 집중 수업",
+    intro: "같은 단원이라도 학교마다 시험에 나오는 문제가 다릅니다. {r} 지역 학교의 시험 범위, 교과서, 부교재, 지난 시험지를 기준으로 시험 4~5주 전부터 계획을 세웁니다.",
+    topics: [
+      ["중간고사 수학 대비", "시험 범위 단원의 개념을 먼저 빠르게 점검하고, 학교 교과서와 부교재 문제를 중심으로 출제 가능성이 높은 유형부터 반복합니다."],
+      ["기말고사 수학 대비", "중간고사 결과를 분석해 틀린 원인을 정리하고, 학기 말 바쁜 일정 속에서도 범위를 여러 번 반복할 수 있도록 진도를 역산해 계획합니다."],
+      ["학교 기출 분석", "학생이 가져온 지난 시험지와 학교 프린트로 자주 나오는 유형, 난도, 배점 구조를 정리해 학교별로 공부의 우선순위를 정합니다."],
+      ["수학 서술형 대비", "풀이 과정의 논리와 식 쓰는 순서를 연습해 서술형 부분 점수를 지킵니다. 채점 기준에서 감점되는 표현을 수업마다 점검합니다."]
+    ],
+    checklist: ["시험 때마다 아는 문제를 실수로 틀리는 학생", "교과서·프린트 문제를 다 풀지 못하고 시험을 보는 학생", "서술형에서 점수를 자주 잃는 학생", "중간고사 결과가 아쉬워 기말고사를 준비하는 학생"],
+    faq: [
+      ["{r} 수학 시험대비는 언제부터 시작하나요?", "보통 시험 4~5주 전부터 시험 범위 중심으로 전환합니다. 범위가 넓거나 기초가 부족하면 6주 전부터 시작을 권합니다."],
+      ["초등학생도 시험대비가 필요한가요?", "초등은 단원평가와 수행평가 위주라 시험대비보다 단원별 개념 확인과 연산 정확도 관리에 집중합니다. 중등과 고등은 학교별 시험 범위 중심으로 대비합니다."]
+    ]
+  },
+  {
+    slug: "visit", name: "방문", label: "방문 1:1",
+    title: "집에서 받는 초·중·고 1:1 방문 수학 수업",
+    summary: "학원 이동 없이 익숙한 공간에서 집중하는 초등·중등·고등 1:1 방문 수학 수업",
+    intro: "{full} 학생의 집에서 1:1로 수업합니다. 이동 시간 없이 익숙한 공간에서 집중할 수 있고, 학생의 책상과 교재를 그대로 보며 평소 공부 습관까지 함께 점검합니다.",
+    topics: [
+      ["1:1 방문 수학과외", "선생님이 학생의 집으로 찾아가 1:1로 수업합니다. 여러 명이 함께 듣는 수업과 달리 학생의 질문과 풀이 속도에 맞춰 설명의 깊이를 조절합니다."],
+      ["방문 수학수업 진행", "수업마다 지난 과제 확인, 개념 설명, 문제 적용, 오답 정리 순서로 진행합니다. 학생이 쓰는 문제집과 노트를 직접 보며 공부 방법까지 바로잡습니다."],
+      ["학부모 상담", "수업 직후 학부모님께 그날 다룬 내용과 과제를 짧게 공유하고, 정기적으로 학습 변화와 다음 계획을 상담합니다."],
+      ["방문 가능 지역", "{areas} 등 {full} 생활권을 중심으로 방문합니다. 거리와 시간대 때문에 방문이 어려운 경우에는 온라인 수업을 안내해 드립니다."]
+    ],
+    checklist: ["학원 이동 시간이 부담되는 학생", "여러 명 수업에서 질문하기 어려운 학생", "집에서 공부 습관을 잡아야 하는 학생", "수업 과정을 직접 확인하고 싶은 학부모님"],
+    faq: [
+      ["{r} 방문 수학과외는 어느 동네까지 가능한가요?", "{areas} 등 {full} 주요 생활권을 중심으로 방문합니다. 주소와 희망 시간대를 알려주시면 상담 시 방문 가능 여부를 안내해 드립니다."],
+      ["방문 수업 시간과 횟수는 어떻게 정하나요?", "학년과 목표, 학교·학원 일정을 고려해 상담에서 함께 정합니다."]
     ]
   }
 ];
@@ -236,7 +279,7 @@ function programsSection(region, current) {
     const href = region ? levelUrl(region, program) : "#directory";
     return `<a class="level-card${current === program ? " current" : ""}" href="${href}"><small>${program.label}</small><h3>${region ? `${region.name} ` : ""}${program.name} 수학과외</h3><p>${program.summary}</p><span class="chips">${program.topics.map(([keyword]) => `<span>${keyword}</span>`).join("")}</span><span class="more">${current === program ? "현재 페이지" : "자세히 보기 →"}</span></a>`;
   }).join("");
-  return `<section class="levels programs" id="programs"><div class="wrap"><div class="section-head"><h2>${place} 집중 프로그램<br>예비중1·예비고1·온라인</h2><p>학년이 바뀌는 전환기와 거리·일정 때문에 대면 수업이 어려운 경우를 위한 맞춤 프로그램입니다.</p></div><div class="level-grid">${cards}</div></div></section>`;
+  return `<section class="levels programs" id="programs"><div class="wrap"><div class="section-head"><h2>${place} 맞춤 프로그램<br>전환기·시험·수업 방식</h2><p>학년이 바뀌는 전환기, 시험 기간, 거리와 일정 등 학생 상황에 맞춰 고를 수 있는 프로그램입니다.</p></div><div class="level-grid">${cards}</div></div></section>`;
 }
 
 const schoolTypes = { elementary: "초등학교", middle: "중학교", high: "고등학교" };
@@ -247,8 +290,12 @@ function schoolGroup(region, levelSlug, linked) {
   const level = levels.find(item => item.slug === levelSlug);
   const heading = `${region.name} ${level.name} 수학과외`;
   const list = items => `<ul class="school-list">${items.map(school => `<li>${school.name}</li>`).join("")}</ul>`;
-  const districts = [...new Set(schools.map(school => school.district))];
-  const body = districts.length > 1 ? districts.map(district => `<p class="school-district">${region.name} ${district}</p>${list(schools.filter(school => school.district === district))}`).join("") : list(schools);
+  const groups = [...new Set(schools.map(school => school.district))];
+  const districtLink = name => {
+    const district = districts.find(item => item.name === name);
+    return region.slug === "changwon" && district ? `<a href="/regions/changwon/${district.slug}/">${region.name} ${name} →</a>` : `${region.name} ${name}`;
+  };
+  const body = groups.length > 1 ? groups.map(name => `<p class="school-district">${districtLink(name)}</p>${list(schools.filter(school => school.district === name))}`).join("") : list(schools);
   return `<div class="school-group"><h3>${linked ? `<a href="${levelUrl(region, level)}">${heading} →</a>` : heading}<small>${schools.length}개 ${schoolTypes[levelSlug]}</small></h3>${body}</div>`;
 }
 
@@ -336,6 +383,35 @@ function programPage(region, program) {
   return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], [`${region.name} 수학과외`, `${siteUrl}/regions/${region.slug}/`], [`${place} 수학과외`, canonical]]), faqSchema(faq)] });
 }
 
+function districtPage(district) {
+  const region = regions.find(item => item.slug === "changwon");
+  const place = `${region.name} ${district.name}`;
+  const canonical = `${siteUrl}/regions/changwon/${district.slug}/`;
+  const all = Object.values(schoolData.regions.changwon).flat().filter(school => school.district === district.name);
+  const townCounts = all.reduce((counts, school) => counts.set(school.town, (counts.get(school.town) || 0) + 1), new Map());
+  const towns = [...townCounts].sort((a, b) => b[1] - a[1]).map(([town]) => town).filter(Boolean).slice(0, 10);
+  const townText = towns.join(", ");
+  const aliasText = district.alias ? `${district.alias} ` : "";
+  const title = `${place} 수학과외 | ${aliasText}초등·중등·고등 1:1 수학, 내신·수능대비`;
+  const description = `${place} 수학과외. ${towns.slice(0, 6).join(", ")} 초등·중등·고등 1:1 맞춤 수업. ${district.name} ${all.length}개 학교 진도와 시험 범위에 맞춘 기초수학, 수학내신, 수능수학. 무료 학습 상담 ${phoneNumber}`;
+  pages.push({ url: canonical, title, description, priority: "0.7" });
+  const faq = [
+    [`${place} 어느 동네까지 수업하나요?`, `${townText} 등 ${district.name} 전역 학생을 상담합니다. 거리와 일정에 따라 방문 수업 또는 온라인 수업을 안내합니다.`],
+    [`${district.name} 학교 시험 일정에 맞춰 수업하나요?`, `${district.name} 초등학교, 중학교, 고등학교마다 시험 범위와 일정이 다르기 때문에 학생이 다니는 학교 기준으로 수업 계획을 세웁니다.`],
+    ...commonFaq.slice(1).map(([question, answer]) => [fill(question, region), fill(answer, region)])
+  ];
+  const local = `<section class="local-intro"><div class="wrap local-copy"><div><p class="eyebrow">${place} LOCAL CLASS</p><h2>${district.name} 학생에게 맞는<br>1:1 수학 수업</h2></div><div><p>${place} ${townText} 인근 초등학생, 중학생, 고등학생을 대상으로 상담합니다. ${district.name}에는 ${all.length}개 초·중·고등학교가 있고, 학교마다 진도와 시험 범위가 다른 만큼 학생이 다니는 학교를 기준으로 수업을 설계합니다.</p><p>${region.focus}을 중심으로 수업하며, 초등 기초수학과 수학공부 습관, 중등 수학내신과 선행, 고등 내신과 수능수학 대비를 개인 진도에 맞춰 연결합니다.</p></div></div></section>`;
+  const schoolsHtml = Object.entries(schoolTypes).map(([levelSlug, type]) => {
+    const list = schoolData.regions.changwon[levelSlug].filter(school => school.district === district.name);
+    const level = levels.find(item => item.slug === levelSlug);
+    return `<div class="school-group"><h3><a href="${levelUrl(region, level)}">${place} ${level.name} 수학과외 →</a><small>${list.length}개 ${type}</small></h3><ul class="school-list">${list.map(school => `<li>${school.name}</li>`).join("")}</ul></div>`;
+  }).join("");
+  const schools = `<section class="schools" id="schools"><div class="wrap"><div class="section-head"><h2>${place} 학교별<br>수학과외</h2><p>${district.name} 초등학교, 중학교, 고등학교 학생의 학교 진도와 시험 범위에 맞춰 수업합니다. 다니는 학교 이름을 알려주시면 학교 일정에 맞춘 계획으로 상담해 드립니다.</p></div>${schoolsHtml}${schoolSource}</div></section>`;
+  const others = `<section class="regions" id="region"><div class="wrap"><div class="section-head"><h2>창원 구별<br>수학과외</h2><p>창원시 5개 구의 수학과외 안내입니다. 거주지와 일정에 따라 대면 또는 온라인 수업을 상담합니다.</p></div><div class="region-grid">${districts.map(item => `<a class="region-link" href="/regions/changwon/${item.slug}/">${item.name}<span>↗</span></a>`).join("")}<a class="region-link" href="/regions/changwon/">창원 전체<span>↗</span></a></div></div></section>`;
+  const body = `${hero(`${place}<br>수학과외`, `${district.name} ${towns.slice(0, 5).join(", ")}에서 만나는 초등·중등·고등 1:1 맞춤 수업. 학생이 다니는 학교의 진도와 시험 범위에 맞춰 공부의 방향을 잡습니다.`, "CHANGWON DISTRICT MATH TUTORING", `<a href="/regions/changwon/">창원 수학과외</a> · ${district.name}`)}${proof}${local}${schools}${levelsSection(region)}${programsSection(region)}${process}${gradeSection}${faqSection(faq, place)}${others}${contact(place)}`;
+  return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], ["창원 수학과외", `${siteUrl}/regions/changwon/`], [`${place} 수학과외`, canonical]]), faqSchema(faq)] });
+}
+
 await rm(dist, { recursive: true, force: true });
 await mkdir(path.join(dist, "assets"), { recursive: true });
 await writeFile(path.join(dist, "assets", "style.css"), css);
@@ -352,6 +428,11 @@ for (const region of regions) {
     await mkdir(path.join(directory, program.slug), { recursive: true });
     await writeFile(path.join(directory, program.slug, "index.html"), programPage(region, program));
   }
+}
+for (const district of districts) {
+  const directory = path.join(dist, "regions", "changwon", district.slug);
+  await mkdir(directory, { recursive: true });
+  await writeFile(path.join(directory, "index.html"), districtPage(district));
 }
 const today = new Date().toISOString().slice(0, 10);
 const escapeXml = text => text.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");

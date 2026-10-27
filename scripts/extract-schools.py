@@ -32,7 +32,10 @@ for row in rows:
         continue
     # 창원은 구 단위로 묶어서 보여줍니다
     district = address[2] if slug == "changwon" else ""
-    schools[slug][level].append({"name": row["학교명"].strip(), "district": district})
+    # 지번주소의 법정 읍·면·동 (창원은 구 다음 칸)
+    jibun = row["소재지지번주소"].split()
+    town = jibun[3 if slug == "changwon" else 2] if len(jibun) > 3 else ""
+    schools[slug][level].append({"name": row["학교명"].strip(), "district": district, "town": town})
 
 for levels in schools.values():
     for items in levels.values():
