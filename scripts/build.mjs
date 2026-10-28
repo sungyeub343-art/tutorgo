@@ -125,6 +125,23 @@ const districts = [
   { slug: "jinhae", name: "진해구", alias: "진해" }
 ];
 
+// 구·동네 페이지(/regions/{지역}/{동네}/). district=창원 구, towns=학교 지번주소의 법정 읍·면·동
+const areas = [
+  ...districts.map(district => ({ ...district, region: "changwon", district: district.name })),
+  { region: "changwon", slug: "naeseo", name: "내서", alias: "마산", district: "마산회원구", towns: ["내서읍"] },
+  { region: "changwon", slug: "sangnam", name: "상남동", alias: "성산구", district: "성산구", towns: ["상남동"] },
+  { region: "changwon", slug: "yongwon", name: "용원", alias: "진해", district: "진해구", towns: ["용원동"] },
+  { region: "changwon", slug: "bukmyeon", name: "북면", alias: "감계·무동", district: "의창구", towns: ["북면"] },
+  { region: "gimhae", slug: "jangyu", name: "장유", alias: "율하", towns: ["관동동", "내덕동", "대청동", "무계동", "부곡동", "삼문동", "수가동", "신문동", "유하동", "율하동", "응달동", "장유동"] },
+  { region: "gimhae", slug: "naewoe", name: "내외동", alias: "", towns: ["내동", "외동"] },
+  { region: "gimhae", slug: "jinyeong", name: "진영", alias: "", towns: ["진영읍"] },
+  { region: "yangsan", slug: "mulgeum", name: "물금", alias: "양산신도시", towns: ["물금읍"] },
+  { region: "yangsan", slug: "dongmyeon", name: "동면", alias: "사송", towns: ["동면"] },
+  { region: "jinju", slug: "innocity", name: "혁신도시", alias: "충무공동", towns: ["충무공동"] },
+  { region: "jinju", slug: "chojeon", name: "초전동", alias: "", towns: ["초전동"] },
+  { region: "geoje", slug: "gohyeon", name: "고현", alias: "", towns: ["고현동"] }
+];
+
 const programs = [
   {
     slug: "pre-middle", name: "예비중1", label: "초6 → 중1",
@@ -349,7 +366,7 @@ function regionPage(region) {
   pages.push({ url: canonical, title, description, priority: "0.8" });
   const faq = [...commonFaq, ...levels.map(level => level.faq[0])].map(([question, answer]) => [fill(question, region), fill(answer, region)]);
   const local = `<section class="local-intro"><div class="wrap local-copy"><div><p class="eyebrow">${fullName} LOCAL CLASS</p><h2>${region.name} 학생에게 맞는<br>현실적인 학습 계획</h2></div><div><p>${fullName} ${region.areas} 인근 초등학생, 중학생, 고등학생을 대상으로 상담합니다. 지역과 학교에 따라 시험 일정과 학습 환경이 다른 만큼, 정해진 교재를 일률적으로 따라가기보다 최근 시험 결과와 목표를 먼저 확인합니다.</p><p>${region.focus}을 중심으로 수업하며, 대면 수업이 어려운 거리나 일정에는 온라인 수업을 함께 안내합니다. 초등 기초수학과 수학공부 습관, 중등 수학내신과 선행, 고등 내신과 수능수학 대비를 개인 진도에 맞춰 연결합니다.</p></div></div></section>`;
-  const body = `${hero(`${region.name}<br>수학과외`, `${fullName} ${region.areas}에서 만나는 초등·중등·고등 1:1 맞춤 수업. ${region.focus}으로 공부의 방향을 분명하게 잡습니다.`, "GYEONGNAM LOCAL MATH TUTORING", `${region.name} 수학과외`)}${proof}${local}${levelsSection(region)}${regionSchoolsSection(region)}${programsSection(region)}${process}${gradeSection}${faqSection(faq, region.name)}${regionsSection()}${contact(region.name)}`;
+  const body = `${hero(`${region.name}<br>수학과외`, `${fullName} ${region.areas}에서 만나는 초등·중등·고등 1:1 맞춤 수업. ${region.focus}으로 공부의 방향을 분명하게 잡습니다.`, "GYEONGNAM LOCAL MATH TUTORING", `${region.name} 수학과외`)}${proof}${local}${levelsSection(region)}${regionSchoolsSection(region)}${areaLinksSection(region)}${programsSection(region)}${process}${gradeSection}${faqSection(faq, region.name)}${regionsSection()}${contact(region.name)}`;
   return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], [`${region.name} 수학과외`, canonical]]), faqSchema(faq)] });
 }
 
@@ -383,33 +400,41 @@ function programPage(region, program) {
   return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], [`${region.name} 수학과외`, `${siteUrl}/regions/${region.slug}/`], [`${place} 수학과외`, canonical]]), faqSchema(faq)] });
 }
 
-function districtPage(district) {
-  const region = regions.find(item => item.slug === "changwon");
-  const place = `${region.name} ${district.name}`;
-  const canonical = `${siteUrl}/regions/changwon/${district.slug}/`;
-  const all = Object.values(schoolData.regions.changwon).flat().filter(school => school.district === district.name);
+function areaLinksSection(region, current) {
+  const items = areas.filter(area => area.region === region.slug);
+  if (!items.length) return "";
+  return `<section class="regions" id="area"><div class="wrap"><div class="section-head"><h2>${region.name} 동네별<br>수학과외</h2><p>${region.name}${region.type} 생활권별 수학과외 안내입니다. 동네 학교 목록과 수업 방식을 확인하고 거주지에 맞춰 상담하세요.</p></div><div class="region-grid">${items.map(area => `<a class="region-link" href="/regions/${region.slug}/${area.slug}/">${area === current ? `<strong>${area.name}</strong>` : area.name}<span>↗</span></a>`).join("")}<a class="region-link" href="/regions/${region.slug}/">${region.name} 전체<span>↗</span></a></div></div></section>`;
+}
+
+function areaPage(area) {
+  const region = regions.find(item => item.slug === area.region);
+  const place = `${region.name} ${area.name}`;
+  const canonical = `${siteUrl}/regions/${region.slug}/${area.slug}/`;
+  const inArea = school => (!area.district || school.district === area.district) && (!area.towns || area.towns.includes(school.town));
+  const all = Object.values(schoolData.regions[region.slug]).flat().filter(inArea);
   const townCounts = all.reduce((counts, school) => counts.set(school.town, (counts.get(school.town) || 0) + 1), new Map());
-  const towns = [...townCounts].sort((a, b) => b[1] - a[1]).map(([town]) => town).filter(Boolean).slice(0, 10);
-  const townText = towns.join(", ");
-  const aliasText = district.alias ? `${district.alias} ` : "";
+  // "물금 물금읍"처럼 이름이 겹치는 동네는 빼고 보여줍니다
+  const towns = [...townCounts].sort((a, b) => b[1] - a[1]).map(([town]) => town).filter(town => town && !town.startsWith(area.name)).slice(0, 10);
+  const townPart = count => towns.length ? ` ${towns.slice(0, count).join(", ")}` : "";
+  const aliasText = area.alias ? `${area.alias} ` : "";
   const title = `${place} 수학과외 | ${aliasText}초등·중등·고등 1:1 수학, 내신·수능대비`;
-  const description = `${place} 수학과외. ${towns.slice(0, 6).join(", ")} 초등·중등·고등 1:1 맞춤 수업. ${district.name} ${all.length}개 학교 진도와 시험 범위에 맞춘 기초수학, 수학내신, 수능수학. 무료 학습 상담 ${phoneNumber}`;
+  const description = `${place} 수학과외.${townPart(6)} 초등·중등·고등 1:1 맞춤 수업. ${area.name} ${all.length}개 학교 진도와 시험 범위에 맞춘 기초수학, 수학내신, 수능수학. 무료 학습 상담 ${phoneNumber}`;
   pages.push({ url: canonical, title, description, priority: "0.7" });
   const faq = [
-    [`${place} 어느 동네까지 수업하나요?`, `${townText} 등 ${district.name} 전역 학생을 상담합니다. 거리와 일정에 따라 방문 수업 또는 온라인 수업을 안내합니다.`],
-    [`${district.name} 학교 시험 일정에 맞춰 수업하나요?`, `${district.name} 초등학교, 중학교, 고등학교마다 시험 범위와 일정이 다르기 때문에 학생이 다니는 학교 기준으로 수업 계획을 세웁니다.`],
+    [`${place} 어느 동네까지 수업하나요?`, `${towns.length ? `${towns.join(", ")} 등 ` : ""}${area.name} 전역 학생을 상담합니다. 거리와 일정에 따라 방문 수업 또는 온라인 수업을 안내합니다.`],
+    [`${area.name} 학교 시험 일정에 맞춰 수업하나요?`, `${area.name} 초등학교, 중학교, 고등학교마다 시험 범위와 일정이 다르기 때문에 학생이 다니는 학교 기준으로 수업 계획을 세웁니다.`],
     ...commonFaq.slice(1).map(([question, answer]) => [fill(question, region), fill(answer, region)])
   ];
-  const local = `<section class="local-intro"><div class="wrap local-copy"><div><p class="eyebrow">${place} LOCAL CLASS</p><h2>${district.name} 학생에게 맞는<br>1:1 수학 수업</h2></div><div><p>${place} ${townText} 인근 초등학생, 중학생, 고등학생을 대상으로 상담합니다. ${district.name}에는 ${all.length}개 초·중·고등학교가 있고, 학교마다 진도와 시험 범위가 다른 만큼 학생이 다니는 학교를 기준으로 수업을 설계합니다.</p><p>${region.focus}을 중심으로 수업하며, 초등 기초수학과 수학공부 습관, 중등 수학내신과 선행, 고등 내신과 수능수학 대비를 개인 진도에 맞춰 연결합니다.</p></div></div></section>`;
+  const local = `<section class="local-intro"><div class="wrap local-copy"><div><p class="eyebrow">${place} LOCAL CLASS</p><h2>${area.name} 학생에게 맞는<br>1:1 수학 수업</h2></div><div><p>${place}${townPart(10)} 인근 초등학생, 중학생, 고등학생을 대상으로 상담합니다. ${area.name}에는 ${all.length}개 초·중·고등학교가 있고, 학교마다 진도와 시험 범위가 다른 만큼 학생이 다니는 학교를 기준으로 수업을 설계합니다.</p><p>${region.focus}을 중심으로 수업하며, 초등 기초수학과 수학공부 습관, 중등 수학내신과 선행, 고등 내신과 수능수학 대비를 개인 진도에 맞춰 연결합니다.</p></div></div></section>`;
   const schoolsHtml = Object.entries(schoolTypes).map(([levelSlug, type]) => {
-    const list = schoolData.regions.changwon[levelSlug].filter(school => school.district === district.name);
+    const list = schoolData.regions[region.slug][levelSlug].filter(inArea);
+    if (!list.length) return "";
     const level = levels.find(item => item.slug === levelSlug);
     return `<div class="school-group"><h3><a href="${levelUrl(region, level)}">${place} ${level.name} 수학과외 →</a><small>${list.length}개 ${type}</small></h3><ul class="school-list">${list.map(school => `<li>${school.name}</li>`).join("")}</ul></div>`;
   }).join("");
-  const schools = `<section class="schools" id="schools"><div class="wrap"><div class="section-head"><h2>${place} 학교별<br>수학과외</h2><p>${district.name} 초등학교, 중학교, 고등학교 학생의 학교 진도와 시험 범위에 맞춰 수업합니다. 다니는 학교 이름을 알려주시면 학교 일정에 맞춘 계획으로 상담해 드립니다.</p></div>${schoolsHtml}${schoolSource}</div></section>`;
-  const others = `<section class="regions" id="region"><div class="wrap"><div class="section-head"><h2>창원 구별<br>수학과외</h2><p>창원시 5개 구의 수학과외 안내입니다. 거주지와 일정에 따라 대면 또는 온라인 수업을 상담합니다.</p></div><div class="region-grid">${districts.map(item => `<a class="region-link" href="/regions/changwon/${item.slug}/">${item.name}<span>↗</span></a>`).join("")}<a class="region-link" href="/regions/changwon/">창원 전체<span>↗</span></a></div></div></section>`;
-  const body = `${hero(`${place}<br>수학과외`, `${district.name} ${towns.slice(0, 5).join(", ")}에서 만나는 초등·중등·고등 1:1 맞춤 수업. 학생이 다니는 학교의 진도와 시험 범위에 맞춰 공부의 방향을 잡습니다.`, "CHANGWON DISTRICT MATH TUTORING", `<a href="/regions/changwon/">창원 수학과외</a> · ${district.name}`)}${proof}${local}${schools}${levelsSection(region)}${programsSection(region)}${process}${gradeSection}${faqSection(faq, place)}${others}${contact(place)}`;
-  return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], ["창원 수학과외", `${siteUrl}/regions/changwon/`], [`${place} 수학과외`, canonical]]), faqSchema(faq)] });
+  const schools = `<section class="schools" id="schools"><div class="wrap"><div class="section-head"><h2>${place} 학교별<br>수학과외</h2><p>${area.name} 초등학교, 중학교, 고등학교 학생의 학교 진도와 시험 범위에 맞춰 수업합니다. 다니는 학교 이름을 알려주시면 학교 일정에 맞춘 계획으로 상담해 드립니다.</p></div>${schoolsHtml}${schoolSource}</div></section>`;
+  const body = `${hero(`${place}<br>수학과외`, `${area.name}${townPart(5)}에서 만나는 초등·중등·고등 1:1 맞춤 수업. 학생이 다니는 학교의 진도와 시험 범위에 맞춰 공부의 방향을 잡습니다.`, "GYEONGNAM LOCAL MATH TUTORING", `<a href="/regions/${region.slug}/">${region.name} 수학과외</a> · ${area.name}`)}${proof}${local}${schools}${levelsSection(region)}${programsSection(region)}${process}${gradeSection}${faqSection(faq, place)}${areaLinksSection(region, area)}${contact(place)}`;
+  return layout({ title, description, body, canonical, schemas: [breadcrumbSchema([["홈", `${siteUrl}/`], [`${region.name} 수학과외`, `${siteUrl}/regions/${region.slug}/`], [`${place} 수학과외`, canonical]]), faqSchema(faq)] });
 }
 
 await rm(dist, { recursive: true, force: true });
@@ -429,10 +454,10 @@ for (const region of regions) {
     await writeFile(path.join(directory, program.slug, "index.html"), programPage(region, program));
   }
 }
-for (const district of districts) {
-  const directory = path.join(dist, "regions", "changwon", district.slug);
+for (const area of areas) {
+  const directory = path.join(dist, "regions", area.region, area.slug);
   await mkdir(directory, { recursive: true });
-  await writeFile(path.join(directory, "index.html"), districtPage(district));
+  await writeFile(path.join(directory, "index.html"), areaPage(area));
 }
 const today = new Date().toISOString().slice(0, 10);
 const escapeXml = text => text.replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
